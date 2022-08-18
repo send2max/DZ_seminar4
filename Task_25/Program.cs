@@ -19,7 +19,7 @@ int Exponentiation()
     {
         result *= a;
     }
-    Console.WriteLine(result);
+    Console.WriteLine($"{a},{b}->{result}");
     return result;
 }
 Exponentiation();
